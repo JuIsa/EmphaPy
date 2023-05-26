@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="static/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    </style>
+</head>
+
+<body>
+    <h1 class="light">Emphasizer</h1>
+    <form action="emp" method="post">
+        <div>
+            <p>{{message|safe}}</p>
+        </div>
+
+        <div class="div_input">
+            <input type="text" name="text_input">
+            <input type="submit" value="Emphasize" id="emp">
+        </div>
+
+    </form>
+</body>
+
+</html>
